@@ -2230,7 +2230,7 @@ getJasmineRequireObj().matchersUtil = function(j$) {
   };
 
   // Equality function lovingly adapted from isEqual in
-  //   [Underscore](http://underscorejs.org)
+  //   [Underscore](https://underscorejs.org)
   function eq(a, b, aStack, bStack, customTesters) {
     var result = true;
 
@@ -2267,7 +2267,7 @@ getJasmineRequireObj().matchersUtil = function(j$) {
     }
 
     // Identical objects are equal. `0 === -0`, but they aren't identical.
-    // See the [Harmony `egal` proposal](http://wiki.ecmascript.org/doku.php?id=harmony:egal).
+    // See the [Harmony `egal` proposal](https://wiki.ecmascript.org/doku.php?id=harmony:egal).
     if (a === b) { return a !== 0 || 1 / a == 1 / b; }
     // A strict comparison is necessary because `null == undefined`.
     if (a === null || b === null) { return a === b; }
