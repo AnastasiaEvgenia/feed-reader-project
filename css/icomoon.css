@@ -9,6 +9,7 @@
 	font-style: normal;
 }
 
+
 [class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon';
 	speak: none;
@@ -22,6 +23,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
 
 .icon-list:before {
 	content: "\e600";

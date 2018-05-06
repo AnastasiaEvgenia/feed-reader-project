@@ -4,9 +4,11 @@
     box-sizing: inherit;
 }
 
+
 html {
     box-sizing: border-box;
 }
+
 
 body {
     color: #111;
@@ -15,14 +17,17 @@ body {
     margin: 0;
 }
 
+
 a {
     text-decoration: none;
     color: #111;
 }
 
+
 a:hover h2 {
     text-decoration: underline;
 }
+
 
 h1 {
     display: inline-block;
@@ -30,10 +35,12 @@ h1 {
     margin: 0 0 0 0.5em;
 }
 
+
 h2 {
     font-weight: 400;
     margin: 0;
 }
+
 
 .header {
     background: #4caf50;
@@ -44,10 +51,12 @@ h2 {
     padding: 0.5em 1em;
 }
 
+
 .icon-list {
     font-size: 1.5em;
     color: #FFF;
 }
+
 
 .slide-menu {
     position: absolute;
@@ -60,15 +69,18 @@ h2 {
     transition: transform 0.2s;
 }
 
+
 .slide-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+
 .slide-menu li {
     padding: 0;
 }
+
 
 .slide-menu li a {
     color: #fff;
@@ -76,14 +88,17 @@ h2 {
     padding: 0.5em 0;
 }
 
+
 .menu-hidden .slide-menu {
     transform: translate3d(-12em, 0, 0);
     transition: transform 0.2s;
 }
 
+
 .feed {
     margin: 4em 0 0;
 }
+
 
 .entry {
     border-bottom: 1px solid #ddd;
